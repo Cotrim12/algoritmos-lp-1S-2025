@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include  <stdio.h>
 
-int main (int arc, char* argv[]){
+int main (int arg, char* argv[]){
 
- printf ("Hello, world!");
+    printf("Opa, mundo!");
 
-    return 0;
+return 0;
+
 }
-
