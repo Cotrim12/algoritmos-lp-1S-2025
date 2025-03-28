@@ -47,8 +47,13 @@ int main(int argc, char* argv []){
     printf("%.2f // %.2f = %d\n", n1, n2, quociente_inteiro);
 
     // Incremento
+    n1++;
+    printf("%.2f++ %.2f\n", n1-1, n1);
+
 
     //Decremento
+    n1--;
+     printf("%.2f-- %.2f\n", n1+1, n1);
 
     return 0;
 }
