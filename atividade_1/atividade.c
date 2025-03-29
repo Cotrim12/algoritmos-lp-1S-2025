@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 // Função para calcular o IMC
-double calcularIMC(double peso, double altura){
+float calcularIMC(float peso, float altura){
     return peso / (altura * altura);
 }
 
 int main () {
-    double peso, altura, imc;
+    float peso, altura, imc;
 
 // Entrada de dados
 printf("Digite seu peso (kg): ");
-scanf("%lf", &peso);
+scanf("%f", &peso);
 printf("Digite sua altura (m): ");
-scanf("%lf", &altura);
+scanf("%f", &altura);
 
 // Cálculo do IMC
 imc = calcularIMC (peso, altura);
