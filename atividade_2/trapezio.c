@@ -1,24 +1,26 @@
 #include <stdio.h>
 
 // Função para calcular a área do trapézio
-float calcular_area_trapezio(float diagonal_maior, float diagonal_menor) {
-    return(diagonal_maior * diagonal_menor) / 2;
+float calcular_area_trapezio(float base_maior, float base_menor, float altura) {
+    return ((base_maior + base_menor) * altura) / 2;
 }
 
 int main() {
-    float diagonal_maior, diagonal_menor;
+    float base_maior, base_menor, altura;
 
-    // Solicita os valores da diagonal maior e diagonal menor
-    printf("Digite o valor da diagonal maior: ");
-    scanf("%f", &diagonal_maior);
-    printf("Digite o valor da diagonal menor: ");
-    scanf("%f", &diagonal_menor);
+    // Solicita os valores das bases e da altura
+    printf("Digite o valor da base maior: ");
+    scanf("%f", &base_maior);
+    printf("Digite o valor da base_menor: ");
+    scanf("%f", &base_menor);
+    printf("Digite o valor da altura do trapézio: ");
+    scanf("%f", &altura);
 
     // Calcula a área
-    float area = calcular_area_trapezio(diagonal_maior, diagonal_menor);
+    float area = calcular_area_trapezio(base_maior, base_menor, altura);
 
     // Exibe o resultado
-    printf("A area do losango e: %.2f\n", area);
+    printf("A area do trapezio eh : %.2f\n", area);
 
     return 0;
 }
