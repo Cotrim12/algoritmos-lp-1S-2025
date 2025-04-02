@@ -13,7 +13,7 @@ int main() {
     scanf("%f", &base_maior);
     printf("Digite o valor da base_menor: ");
     scanf("%f", &base_menor);
-    printf("Digite o valor da altura do trapézio: ");
+    printf("Digite o valor da altura do trapezio: ");
     scanf("%f", &altura);
 
     // Calcula a área
