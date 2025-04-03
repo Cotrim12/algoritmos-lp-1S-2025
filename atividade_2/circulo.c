@@ -6,7 +6,7 @@ float calcular_area_circulo(float raio) {
 return PI * raio * raio;
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     float raio;
 
     // Solicita o valor do raio do círculo

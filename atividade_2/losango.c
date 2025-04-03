@@ -5,7 +5,7 @@ float calcular_area_losango (float diagonal_maior, float diagonal_menor) {
     return (diagonal_maior * diagonal_menor) / 2;
 }
 
-int main (){
+int main (int argc, char* argv[]){
     float diagonal_maior, diagonal_menor;
 
     // Solicita os valores das diagonais do losango

@@ -5,7 +5,7 @@ float calcular_area_quadrado(float lado) {
     return lado * lado;
 }
 
-int main(){
+int main(int argc, char* argv[]){
     float lado;
 
     // Solicita o valor do lado do quadrado

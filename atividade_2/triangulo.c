@@ -6,7 +6,7 @@ float calcular_area_triangulo(float base , float altura){
 
 }
 
-int main (){
+int main (int argc, char* argv[]){
     float base, altura;
 
     // Solicita os valores da base e da altura do triângulo

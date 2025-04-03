@@ -5,7 +5,7 @@ float calcular_area_trapezio(float base_maior, float base_menor, float altura) {
     return ((base_maior + base_menor) * altura) / 2;
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     float base_maior, base_menor, altura;
 
     // Solicita os valores das bases e da altura
