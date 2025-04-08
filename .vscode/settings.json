@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "atividade 1": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
