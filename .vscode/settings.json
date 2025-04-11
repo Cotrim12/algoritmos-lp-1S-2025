@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "atividade 1": "cpp"
+        "atividade 1": "cpp",
+        "stdio.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
