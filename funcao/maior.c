@@ -25,11 +25,11 @@ else if (argc == 4){
 }
 else{
     for(int i = 1 ; i < argc; i++){
-        mumeros[i-1] = atoi(argv[i]);
+        numeros[i-1] = atoi(argv[i]);
         printf("%d\n", numeros[i-1]);
-        printf("%d", maior_n(numeros, argc-1));
 
     }
+    printf("%d", maior_n(numeros, argc-1));
 }
 
     return 0;
