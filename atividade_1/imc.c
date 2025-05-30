@@ -5,9 +5,11 @@ float calcularIMC(float peso, float altura){
     return peso / (altura * altura);
 }
 
-int main () {
+int main(int agrc, char* argv[]){
+    int opcao;
     float peso, altura, imc;
 
+    do{
 // Entrada de dados
 printf("Digite seu peso (kg): ");
 scanf("%f", &peso);
@@ -34,5 +36,10 @@ else if (imc >= 35 && imc < 39.9)
 else
     printf("Classificacao: Obesidade grau 3 (morbida)\n");
 
+    printf("Deseja calcular outro IMC?: \n");
+    printf("0- Sim\n1 - Nao\n");
+    scanf("%d", &opcao);
+    }while (opcao == 0);
+
 return 0;
-}
+    }
