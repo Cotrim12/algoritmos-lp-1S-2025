@@ -1,5 +1,18 @@
 #include <stdio.h>
-
-int main(int argc, char* argv[]){
-    
+#include <conio.h>
+#include <stdlib.h>
+int main(void)
+{
+  int i;
+  
+  printf("Gerando 10 valores aleatorios:\n\n");
+  
+  for (i = 0; i < 3; i++)
+  {
+    /* gerando valores aleatórios entre zero e 100 */
+    printf("%d ", rand() % 100);
+  }
+  
+  getch();
+  return 0;
 }
